@@ -78,5 +78,21 @@
         android:text="Email"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EMAIL!"
+        android:backgroundTint="#FF0000" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CALL!"
+        android:backgroundTint="#FF0000" />
+
 
 </LinearLayout>
