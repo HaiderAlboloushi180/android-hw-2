@@ -50,8 +50,8 @@ public class SecondPage extends AppCompatActivity {
         call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
-                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneClaimed));
+                String phone = phoneClaimed;
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
                 startActivity(intent);
             }
         });
